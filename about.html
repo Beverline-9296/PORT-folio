@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4788cad3d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <i class="fa-solid fa-b"></i>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2023-11-06 at 10.24.45.jpeg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>
+                        I am still studying at University specializing in Information Technology <br>
+                        demonstrating a keen interest and proficiency in web development, coding <br>
+                        and networking, alongside an enthusiasm for conducting research. <br>
+                        Additionally, they are eager to explore and excel in designing web applications. <br>
+                        As an IT student, my goal is to develop websites that are both functional <br>
+                        and user-friendly while maintaining an attractive design. <br>
+                        I strive to infuse a personal touch into each project, ensuring it is visually appealing and easy to navigate. <br>
+                        With experience designing websites for renowned brands, my objective is to creatively convey your message and identity. <br>
+                    
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Designing web/app interface</li>
+                            <li><span>Web development</span><br>Web development</li>
+                            <li><span>Junior programmer</span><br>Programming projects</li>
+                            <li><span>App development</span><br>Building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>currently have no experience</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 to date</span><br>Zetech University</li>
+                            <li><span>2012-2018</span><br>Nyabisawa Girls High School</li>
+                            <li><span>2017-2006</span><br>New Star Light Academy</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+    <div class="copyright">
+        <p>copyright 0 2023 <i class="fa-solid fa-heart"></i>. Beverline Omondi</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4788cad3d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <i class="fa-solid fa-b"></i>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Beverline Omondi</span> <br> From Nairobi,Kenya</h1>
+
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2023-11-06 at 10.24.45.jpeg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>
+                        I am still studying at University specializing in Information Technology <br>
+                        demonstrating a keen interest and proficiency in web development, coding <br>
+                        and networking, alongside an enthusiasm for conducting research. <br>
+                        Additionally, they are eager to explore and excel in designing web applications. <br>
+                        As an IT student, my goal is to develop websites that are both functional <br>
+                        and user-friendly while maintaining an attractive design. <br>
+                        I strive to infuse a personal touch into each project, ensuring it is visually appealing and easy to navigate. <br>
+                        With experience designing websites for renowned brands, my objective is to creatively convey your message and identity. <br>
+                    
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Designing web/app interface</li>
+                            <li><span>Web development</span><br>Web development</li>
+                            <li><span>Junior programmer</span><br>Programming projects</li>
+                            <li><span>App development</span><br>Building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>currently have no experience</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 to date</span><br>Zetech University</li>
+                            <li><span>2012-2018</span><br>Nyabisawa Girls High School</li>
+                            <li><span>2017-2006</span><br>New Star Light Academy</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<!--services-->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web Design</h2>
+                <p>proficiency in web development. As an IT student, my goal is to develop websites that are both functional <br>
+                    and user-friendly while maintaining an attractive design</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI?UX Design</h2>
+                <p>proficiency in designing logos,Arts craft,adverts and many more user-friendly design items. As an IT student, my goal is to be creative on hoe to design my logos, arts. That are both functional <br>
+                    and user-friendly while maintaining an attractive design</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-github"></i>
+                <h2>Junior Programmer</h2>
+                <p>proficiency in becoming a good programmer.My goal is to develop websites that are both functional <br>
+                    and user-friendly while maintaining an attractive design</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App developer</h2>
+                <p>proficiency in App development. my goal is to develop phone apps that are both functional <br>
+                    and user-friendly while maintaining an attractive design</p>
+                    <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/c-622435_1280.jpg" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the word.
+                    download it from playstore.
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </p>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/html-154434_1280.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the word.
+                        download it from playstore.
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/smartphone-2034330_1280.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the word.
+                        download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-square-envelope"></i>beverlineomondi827@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0707605631</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100095255829097"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/login/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="/images/CV.docx" download class="btn btn2">Download Cv</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name"placeholder="your name" required>
+                <input type="email" name="email" placeholder="your email" required>
+                <textarea name="message" rows="6" placeholder="your message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>copyright 0 2023 <i class="fa-solid fa-heart"></i>. Beverline Omondi</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
